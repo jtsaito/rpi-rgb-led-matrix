@@ -111,6 +111,16 @@ sudo examples-api-use/demo -D0
     compile and run these.
   4. Write your own programs using the Matrix in C++ or Python.
 
+
+### Getting my setup working (two 64 x 32 matrix panels)
+Run sample with
+
+```
+cd rpi-rgb-led-matrix/bindings/python/samples
+sudo ./runtext.py --led-gpio-mapping=adafruit-hat --led-chain=4 -t "+++ Test! ***"
+```
+
+
 ### Utilities
 
 The [utils directory](./utils) is meant for ready utilities to show images or
@@ -673,3 +683,5 @@ things, like this installation by Dirk in Scharbeutz, Germany:
 [Go binding]: https://github.com/mcuadros/go-rpi-rgb-led-matrix
 [Rust binding]: https://crates.io/crates/rpi-led-matrix
 [Nodejs/Typescript binding]: https://github.com/alexeden/rpi-led-matrix
+
+
