@@ -112,7 +112,12 @@ sudo examples-api-use/demo -D0
   4. Write your own programs using the Matrix in C++ or Python.
 
 
-### Getting my setup working (two 64 x 32 matrix panels)
+### Getting started example: Ada Fruit hat bonnet, two 64 x 32 matrix panels
+
+This is an example of a an Ada Fruit hat bonnet, two 64 x 32 panels using the wiring as shown in the picture below.
+
+![Wiring](./img/IMG_2843.JPG?raw=true "Wiring example")
+
 Run sample with
 
 ```
